@@ -1,5 +1,5 @@
 # pet_proj_blur_face_OpenCV
-Project that blur a face on a live stream video
+Project that blur a face on a live stream video using OpenCV
 
 ![](https://i.imgur.com/Mdkmlng.png)
 
