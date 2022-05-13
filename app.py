@@ -24,7 +24,7 @@ while True:
         # cv2.rectangle(img, (x, y), (x+w, y+h), (0, 0, 255), 2)
         img[y:y+h, x:x+w] = blur_face(img[y:y+h, x:x+w])
 
-    cv2.imshow('From camera', img)
+    cv2.imshow('From camera', cv2.flip(img, 1))
 
     key = cv2.waitKey(30) & 0xFF
     if key == 27:
